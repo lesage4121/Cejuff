@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #1a237e;    /* Bleu foncé */
+    --color-secondary: #ffd700;   /* Jaune */
+  }
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-2000 {
+  transition-duration: 2000ms;
+}
